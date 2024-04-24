@@ -1,0 +1,119 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f3f4f6; /* Light gray */
+    color: #333333; /* Dark gray */
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #007bff; /* Primary color: blue */
+    color: #ffffff; /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 36px;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #ffc0cb; /* Secondary color: pink */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333; /* Dark gray */
+}
+
+/* Section Styles */
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #ffffff; /* White */
+    border-radius: 10px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+section article {
+    margin-bottom: 20px;
+}
+
+/* Aside Styles */
+aside {
+    background-color: #ffc107; /* Accent color: amber */
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #007bff; /* Primary color: blue */
+    color: #ffffff; /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Signup Form Styles */
+.contact {
+    background-color: #ffc0cb; /* Secondary color: pink */
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"],
+.contact form input[type="password"],
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Primary color: blue */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact form input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker shade of primary color */
+}
